@@ -100,7 +100,7 @@
 				<configuration>
 					<verbose>true</verbose>
 					<fork>true</fork>
-					<executable>/usr/lib/jvm/bin//javac</executable>
+					<executable>/usr/lib/jvm/bin/javac</executable>
 				</configuration>
 			</plugin>
 		</plugins>
