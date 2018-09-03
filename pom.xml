@@ -89,7 +89,7 @@
             <version>1.2.16</version>
         </dependency>
 	</dependencies>
-	
+	<!--
 	<build>
 		<finalName>order</finalName>
 		<plugins>
@@ -105,10 +105,13 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
+
+					<source>1.8</source>
+					<target>1.8</target>
+
 					<encoding>utf8</encoding>
 				</configuration>
-			</plugin>
-			<plugin>
+
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
@@ -120,5 +123,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>   -->
 </project>
