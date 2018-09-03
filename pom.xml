@@ -109,7 +109,7 @@
 
 	</build>
 	-->
-
+<!--
 	<build>
 		<finalName>order</finalName>
 		<plugins>
@@ -140,5 +140,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> 
+	</build> -->
 </project>
