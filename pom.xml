@@ -90,7 +90,7 @@
         </dependency>
 	</dependencies>
 
-	<!--20180903-->
+	<!--20180903
 	<build>
 		<plugins>
 			<plugin>
@@ -108,7 +108,8 @@
 		</plugins>
 
 	</build>
-<!--
+	-->
+
 	<build>
 		<finalName>order</finalName>
 		<plugins>
@@ -139,5 +140,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build> 
 </project>
