@@ -90,16 +90,22 @@
         </dependency>
 	</dependencies>
 
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>3.1</version>
-		<configuration>
-			<verbose>true</verbose>
-			<fork>true</fork>
-			<executable>$/usr/lib/jvm/bin/javac</executable>
-		</configuration>
-	</plugin>
+	<!--20180903-->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<verbose>true</verbose>
+					<fork>true</fork>
+					<executable>/usr/lib/jvm/bin//javac</executable>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 <!--
 	<build>
 		<finalName>order</finalName>
